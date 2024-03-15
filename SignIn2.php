@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignIn1</title>
+    <title>SignIn2</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
             margin: 0;
             padding: 0;
-            background: radial-gradient(circle, rgba(239,143,185,1) 57%, rgba(251,1,1,0.8) 100%);
+            
             min-height: 100vh;
             animation: colorFade 5s infinite alternate;
+            background-image: url("s22.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         @keyframes colorFade {
@@ -61,7 +65,7 @@
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;font-size: xx-large;font-weight: 700;color: black;margin-top: 5%;margin-bottom: 5%;" align="center">Sign In</h1>
+    <h1 style="text-align: center;font-size: xx-large;font-weight: 700;color: white;margin-top: 5%;margin-bottom: 5%;" align="center">Sign In</h1>
     <div class="container">
         <form action="">
             <div class="block">
@@ -69,10 +73,14 @@
                     <label for="Email">Email<span style="color: red;">*</span></label>
                     <input type="email" id="Email" name="Email">
                 </div>
-                <div class="form-group">
+                <center><div class="form-group1">
+                    <button>Sign In</button>
+                </div ></center>
+                <center><div class="form-group">
                     <label for="password">Password <span style="color: red;">*</span></label>
                     <input type="password" id="password" name="password" required maxlength="8">
-                    <p>Don't have an account? <a href="loginreg2.html">SignUp</a></p>
+                    <p>Don't have an account? <a href="loginreg2.html">SignUp</a></p></center>
+                    
                 </div>
             </div>
         </form>
