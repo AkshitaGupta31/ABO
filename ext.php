@@ -19,6 +19,28 @@ mysqli_close($conn);
 	<title>GFG User Details</title>
 	<!-- CSS FOR STYLING THE PAGE -->
 	<style>
+        body
+        {
+            background-image: url("pl1.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        .navbar {
+            display: flex;
+            margin-top: 100;
+            margin-left: 10px;
+            padding-bottom: 650px;
+            margin-left: 20px;
+        
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+
 		table {
 			margin: 0 auto;
 			font-size: large;
@@ -53,9 +75,15 @@ mysqli_close($conn);
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html"  style="color: white; float: left;">Back</a>
+        </nav>
+    </header>
 	<section>
+        <h1 style="color: white;margin-top: 60px;">Profile of the Patient</h1>
 		<!-- TABLE CONSTRUCTION -->
-		<table>
+		<table style="margin-top: 30px;">
 			<!-- PHP CODE TO FETCH DATA FROM ROWS -->
 			<?php 
 				// LOOP TILL END OF DATA
