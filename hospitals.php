@@ -68,10 +68,16 @@
 <body>
     <h1 style="text-align: center;padding-top:5%;color: rgb(22, 1, 41);">HOSPITALS</h1>
     <div class="container">
-        <a href="downloadfile.php" style="text-decoration: none;">
+    <a href="search.php" style="text-decoration: none;">
         <div class="box">
             <i class="fas fa-ambulance icon"></i> 
             <h2 style="text-align: center">View Patient Details</h2>
+        </div>
+        </a>
+        <a href="downloadfile.php" style="text-decoration: none;">
+        <div class="box">
+            <i class="fas fa-ambulance icon"></i> 
+            <h2 style="text-align: center">See Patient Medical History</h2>
         </div>
         </a>
     </div>
