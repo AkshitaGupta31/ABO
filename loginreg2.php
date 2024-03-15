@@ -7,20 +7,22 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: rgb(239,143,185);
-            background: radial-gradient(circle, rgba(239,143,185,1) 57%, rgba(251,1,1,0.8) 100%);
+            margin-left: 0;
+            padding: 40px;
+           background-image: url("hs2.jpg");
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         .content {
             max-width: 350px;
             margin-right: 20px;
-            padding: 0px;
+            padding: 20px;
             color: white;
+            margin-left: 0px;
         }
         .container {
             max-width: fit-content;
@@ -29,6 +31,7 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-height: fit-content;
+            margin-right: -10px;
         }
         .container h2 {
             text-align: center;
@@ -151,9 +154,9 @@
                 <label for="password">Password <span style="color: red;">*</span></label>
                 <input type="password" id="password" name="password" required maxlength="8">
             </div>
-        </div>
+        </div><br>
             <div class="form-group">
-                <input type="submit" value="Submit">
+                <center><input type="submit" value="Submit"></center>
             </div>
         </form>
     </div>        
