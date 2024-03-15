@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Download File by Patient</title>
+    <title>Patient Details</title>
     <style>
         body
         {
