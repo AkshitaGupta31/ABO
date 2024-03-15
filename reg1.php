@@ -17,11 +17,9 @@ $email =  $_REQUEST['email'];
 $phno =  $_REQUEST['phone'];
 $location =  $_REQUEST['location'];
 $password =  $_REQUEST['password'];
-$sql = "INSERT INTO credentialsa (OrganizationName,ContactPerson,EmailAddress,PhoneNo,Location,Password) VALUES ('$name','$contact','$email','$phno','$location',$password)";
+$sql = "INSERT INTO credentialsa (OrganizationName,ContactPerson,EmailAddress,PhoneNo,Location,Password) VALUES ('$name','$contact','$email','$phno','$location','$password')";
 if(mysqli_query($conn, $sql)){
-echo "<h3>Data stored in a database successfully."
-. " Please browse your localhost php my admin"
-. " to view the updated data</h3>"; 
+    header('Location: signIn.php');
 } else{
 echo "ERROR: Hush! Sorry $sql. "
 . mysqli_error($conn);
