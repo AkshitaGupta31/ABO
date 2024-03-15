@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Download File by Patient</title>
+    <title>View Medical History</title>
     <style>
         body
         {
@@ -71,7 +71,7 @@
     </header>
     <center>
         <div class="dwnfile">
-            <h2>Download File by Patient</h2>
+            <h2>View Medical History</h2>
             <br>
             <br>
              <center><form method="post" action="download.php">
