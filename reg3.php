@@ -23,11 +23,7 @@ $address =  $_REQUEST['address'];
 $password =  $_REQUEST['password'];
 $email = $_REQUEST['email'];
 $sql = "INSERT INTO credentialsp (Ph,Name,Password,EmailAddress,Age,BloodGroup,Sex,Address,GuardianName,GuardianAge,PhoneNumber) VALUES ('$phno','$name','$password','$email',$age,'$blood','$gender','$address','$gname',$ageg,'$phoneg')";
-if(mysqli_query($conn, $sql)){
-echo "<h3>Data stored in a database successfully."
-. " Please browse your localhost php my admin"
-. " to view the updated data</h3>"; 
-} else{
+if(!mysqli_query($conn, $sql)){
     echo "ERROR: Hush! Sorry $sql. "
     . mysqli_error($conn);
     }
@@ -53,7 +49,7 @@ else
 $sql="INSERT INTO prevhist(ID,Name,Size,Downloads) VALUES($id,'$filename',$size,0)";
 if(mysqli_query($conn, $sql))
 {
-echo "File uploaded successfully";
+header('Location: signIn.php');
 }
 }
 else
