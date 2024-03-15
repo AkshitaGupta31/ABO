@@ -21,7 +21,7 @@
 <body>
     <center>
         <div class="dwnfile">
-            <h2>Download File by Patient</h2>
+            <h2>View Patient Details</h2>
             <br>
             <br>
              <center><form method="post" action="ext.php">
