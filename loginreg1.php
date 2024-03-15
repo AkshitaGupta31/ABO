@@ -6,7 +6,7 @@
     <title>Emergency services Login</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background: rgb(239,143,185);
