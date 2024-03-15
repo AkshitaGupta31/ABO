@@ -62,9 +62,27 @@
                 max-height: none;
             }
         }
+        .navbar {
+            display: flex;
+            margin-top: 100;
+            margin-left: 10px;
+           margin-top: 50px;
+            margin-left: 20px;
+        
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html"  style="color: white; float: left;">Back</a>
+        </nav>
+    </header>
     <h1 style="text-align: center;font-size: xx-large;font-weight: 700;color: white;margin-top: 5%;margin-bottom: 5%;" align="center">Sign In</h1>
     <div class="container">
         <form action="">
@@ -73,12 +91,14 @@
                     <label for="Email">Email<span style="color: red;">*</span></label>
                     <input type="email" id="Email" name="Email">
                 </div>
-                <center><div class="form-group1">
-                    <button>Sign In</button>
-                </div ></center>
+                
                 <center><div class="form-group">
                     <label for="password">Password <span style="color: red;">*</span></label>
                     <input type="password" id="password" name="password" required maxlength="8">
+                    <br><br>
+                    <center><div class="form-group1">
+                        <button>Sign In</button>
+                    </div ></center><br>
                     <p>Don't have an account? <a href="loginreg2.html">SignUp</a></p></center>
                     
                 </div>
