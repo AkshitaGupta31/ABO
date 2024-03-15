@@ -19,6 +19,18 @@
             min-height: 100vh;
             
         }
+        .navbar {
+        display: flex;
+        
+        }
+        
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-left: 20px;
+        }
         .container {
             display: flex; 
             justify-content: space-around; 
@@ -69,7 +81,12 @@
     </style>
 </head>
 <body >
-    <h1 style="text-align: center;padding-top:5%;color: white;">LOGIN</h1>
+    <header>
+        <nav class="navbar">
+            <a href="index.php"  style="color: white; float: left;">Back</a>
+        </nav>
+    </header>
+    <h1 style="text-align: center;padding-top:5%;color: white;margin-top: -40px;">LOGIN</h1>
     <div class="container">
         <a href="loginreg1.html" style="text-decoration: none;">
         <div class="box">
@@ -93,4 +110,3 @@
     </div>
 </body>
 </html>
-
