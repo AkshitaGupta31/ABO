@@ -27,9 +27,9 @@
                     <a href="#">Get the App</a>
                     <div class="navbar__menu_container">
                         
-                        <a href="#" class="link">Tracking</a>
+                        <a href="track.html" class="link">Tracking</a>
                         <a href="#" class="link">Login</a>
-                        <a href="#" class="link">Sign up</a>
+                        <a href="loginpage.html" class="link">Sign up</a>
                         <a href="#" class="user_icon">
                             <i class="fas fa-user"></i>
                         </a>     
@@ -51,32 +51,52 @@
             <div class="we__offer_card">
                 <img src="hospital.jpg" alt="Hospitals">
                 <div class="we__offer_content">
-                    <h2 style="text-align: center;font-weight: 600;">Hospitals</h2>
                     <p style="text-align: center;font-weight: 600;">500+</p>
+                    <h2 style="text-align: center;font-weight: 600;">Hospitals</h2>
                 </div>
             </div>
         
             <div class="we__offer_card">
                 <img src="city.jpg" alt="city">
                 <div class="we__offer_content">
-                    <h2 style="text-align: center;font-weight: 600;">Cities</h2>
                     <p style="text-align: center;font-weight: 600;">50+</p>
+                    <h2 style="text-align: center;font-weight: 600;">Cities</h2>
                 </div>
             </div>
         
             <div class="we__offer_card">
                 <img src="driver.jpg" alt="Drivers">
                 <div class="we__offer_content">
-                    <h2 style="text-align: center;font-weight: 600;">Drivers</h2>
                     <p style="text-align: center;font-weight: 600;">1000+</p>
+                    <h2 style="text-align: center;font-weight: 600;">Drivers</h2>
                 </div>
-            </div>
-            
+
+                <div class="we__offer_card">
+                    <img src="driver.jpg" alt="Drivers">
+                    <div class="we__offer_content">
+                        <p style="text-align: center;font-weight: 600;">1000+</p>
+                        <h2 style="text-align: center;font-weight: 600;">Drivers</h2>
+                    </div>
+            </div><br><br>
+           
             <br>
             <br>
         </section>
-        <p ><b>
-            <ul type="disc" style="margin-top:100px; margin-left: 30px;margin-right: 30px; font-size: x-large; color: white;"><li>In emergency medical situations, time is of the essence. Ambulance services play a critical role in ensuring timely transportation of patients to healthcare facilities. </li><br><li>The ABO is a comprehensive platform that optimizes ambulance tracking and coordination using a combination of cutting-edge technologies.It isn't just about getting to the hospital faster.</li><br><li> Our website creates a seamless link between the ambulance crew and emergency department, transforming every step of the rescue process.</li><br><li>This Ambulance Tracking System with integrated medical history access represents a significant advancement in emergency medical services.</li><br><li> By leveraging technology to improve coordination, communication, and access to critical patient information, it has the potential to save lives and enhance the quality of emergency healthcare delivery.</li></ul> </b></p>
+        <div class="extra">
+                <div class="findhosp"></div>
+            <img src="hosp.jpg">
+            <p><b>Find Hospital</p></b>
+            </div>
+            <div class="doctors">
+            <img src="doctors.jpg" alt="100+ doctors">
+            <p><b>100+ Doctors</p> </b></br>
+            </div>
+            <div class="service">
+            <img src=" service.jpg" alt="24/7 service">
+            <p><b>24/7 Service </p></b>
+            </div>
+        </div>
+       
         <section class="container get_the_app">
             
             <div class="semicontainer">
