@@ -6,11 +6,10 @@ if($conn === false) {
 }
 $name = mysqli_real_escape_string($conn, $_POST['name']);
 $phone = mysqli_real_escape_string($conn, $_POST['phone']);
-
 $sql = "SELECT ID FROM credentialsp WHERE Name='$name' AND Ph='$phone'";
 $result = mysqli_query($conn, $sql);
-
-if($result && mysqli_num_rows($result) > 0) {
+if($result && mysqli_num_rows($result) > 0) 
+{
     $row = mysqli_fetch_assoc($result);
     $patient_id = $row['ID'];
     $sql_file = "SELECT Name FROM prevhist WHERE ID='$patient_id'";
