@@ -82,7 +82,7 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="index.html"  style="color: white; float: left;margin-top: 10px; ">Back</a>
+            <a href="index.php"  style="color: white; float: left;margin-top: 10px; ">Back</a>
         </nav>
     </header>
     <h1 style="text-align: center;padding-top:5%;color:rgb(69, 135, 176);margin-top: -20px;">HOSPITALS</h1>
