@@ -26,8 +26,6 @@
                 <nav class="navbar">
                     <a href="#">Get the App</a>
                     <div class="navbar__menu_container">
-                        
-                        <a href="track.html" class="link">Tracking</a>
                         <a href="#" class="link">Login</a>
                         <a href="loginpage.html" class="link">Sign up</a>
                         <a href="#" class="user_icon">
