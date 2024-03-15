@@ -101,7 +101,7 @@
     </div>
     <div class="container">
         <h2>Hospital Registration</h2>
-        <form action="#" method="POST">
+        <form action="reg2.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="hospitalName">Hospital Name: <span style="color: red;">*</span></label>
                 <input type="text" id="hospitalName" name="hospitalName" required>
