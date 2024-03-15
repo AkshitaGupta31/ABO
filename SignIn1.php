@@ -6,12 +6,16 @@
     <title>SignIn1</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
             margin: 0;
             padding: 0;
-            background: radial-gradient(circle, rgba(239,143,185,1) 57%, rgba(251,1,1,0.8) 100%);
+            
             min-height: 100vh;
             animation: colorFade 5s infinite alternate;
+            background-image: url("bak.png");
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         @keyframes colorFade {
@@ -37,12 +41,19 @@
             padding: 10px;
             margin-top: 0px;
             padding-top: 5px;
+            align-items: center;
         }
 
         .form-group input {
             border-radius: 5px;
             border: 0px;
             border-bottom: 3px black;
+            align-items: center;
+            margin-right:20px;
+        }
+        .form-group1{
+            align-items: center;
+            margin-left:115px;
         }
 
         @media (max-width: 768px) {
@@ -58,9 +69,13 @@
                 max-height: none;
             }
         }
+        .dont{
+            margin-left:40px;
+        }
     </style>
 </head>
 <body>
+    
     <h1 style="text-align: center;font-size: xx-large;font-weight: 700;color: black;margin-top: 5%;margin-bottom: 5%;" align="center">Sign In</h1>
     <div class="container">
         <form action="">
@@ -73,12 +88,13 @@
                     <label for="password">Password <span style="color: red;">*</span></label>
                     <input type="password" id="password" name="password" required maxlength="8">
                 </div>
-                <div class="form-group">
+                <div class="form-group1">
                     <button>Sign In</button>
-                </div>
-                <p>Don't have an account? <a href="loginreg1.html">SignUp</a></p>
+                </div >
+                <p class="dont">Don't have an account? <a href="loginreg1.html">SignUp</a></p>
             </div>
         </form>
     </div>
 </body>
 </html>
+
