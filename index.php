@@ -34,7 +34,10 @@
                     </div>    
                        
                 </nav>
-                <center><div class="amb__section_input_container">
+
+                <center>
+                    <div><img src="download1.png" style="height: 100px;width:250px;"></div>
+                    <div class="amb__section_input_container">
                     <input class="input_container_location" type="text" placeholder="Tamil Nadu">
                     <input class="input_container_search" type="text" placeholder="Search for a hospital">
                 </div></center>
@@ -44,10 +47,9 @@
         <br>
         <br>
        
-
         <section class="container we__offer">
             <div class="we__offer_card">
-                <img src="hospital.jpg" alt="Hospitals">
+                <img src="hospital.jpg" alt="Hospitals" style="height: 300px;width:250px;">
                 <div class="we__offer_content">
                     <p style="text-align: center;font-weight: 600;">500+</p>
                     <h2 style="text-align: center;font-weight: 600;">Hospitals</h2>
@@ -55,7 +57,7 @@
             </div>
         
             <div class="we__offer_card">
-                <img src="city.jpg" alt="city">
+                <img src="city.jpg" alt="city" style="height: 300px;width:250px;">
                 <div class="we__offer_content">
                     <p style="text-align: center;font-weight: 600;">50+</p>
                     <h2 style="text-align: center;font-weight: 600;">Cities</h2>
@@ -63,37 +65,23 @@
             </div>
         
             <div class="we__offer_card">
-                <img src="driver.jpg" alt="Drivers">
+                <img src="driver.jpg" alt="Drivers" style="height: 300px;width:250px;">
                 <div class="we__offer_content">
                     <p style="text-align: center;font-weight: 600;">1000+</p>
                     <h2 style="text-align: center;font-weight: 600;">Drivers</h2>
                 </div>
-
-                <div class="we__offer_card">
-                    <img src="driver.jpg" alt="Drivers">
-                    <div class="we__offer_content">
-                        <p style="text-align: center;font-weight: 600;">1000+</p>
-                        <h2 style="text-align: center;font-weight: 600;">Drivers</h2>
-                    </div>
-            </div><br><br>
+                </div>
            
             <br>
             <br>
         </section>
-        <div class="extra">
-                <div class="findhosp"></div>
-            <img src="hosp.jpg">
-            <p><b>Find Hospital</p></b>
-            </div>
-            <div class="doctors">
-            <img src="doctors.jpg" alt="100+ doctors">
-            <p><b>100+ Doctors</p> </b></br>
-            </div>
-            <div class="service">
-            <img src=" service.jpg" alt="24/7 service">
-            <p><b>24/7 Service </p></b>
-            </div>
-        </div>
+        <center>
+        <section class="slogan">
+            <em>
+                "Saving lives, one ride at a time."
+            </em>
+        </section>
+    </center>
        
         <section class="container get_the_app">
             
