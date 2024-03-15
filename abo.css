@@ -109,9 +109,10 @@ body
 .we__offer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 5rem;
+    margin-left: 130px;
 }
 
 .we__offer_card:hover {
