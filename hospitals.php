@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
     <style>
          body {
-            font-family: Arial, sans-serif;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
             margin: 0;
             padding: 0;
-            background: rgb(239,143,185);
-            background: radial-gradient(circle, rgba(239,143,185,1) 57%, rgba(251,1,1,0.8) 100%);
+           background-image: url("jk.jpg");
+           background-repeat: no-repeat;
+            background-size: cover;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
@@ -63,20 +65,37 @@
                 margin-bottom: 35px; 
             }
         }
+        .navbar {
+        display: flex;
+       
+    }
+    
+    .navbar a {
+        color: black;
+        text-decoration: none;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-left: 20px;
+    }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;padding-top:5%;color: rgb(22, 1, 41);">HOSPITALS</h1>
+    <header>
+        <nav class="navbar">
+            <a href="index.html"  style="color: white; float: left;margin-top: 10px; ">Back</a>
+        </nav>
+    </header>
+    <h1 style="text-align: center;padding-top:5%;color:rgb(69, 135, 176);margin-top: -20px;">HOSPITALS</h1>
     <div class="container">
     <a href="search.php" style="text-decoration: none;">
         <div class="box">
-            <i class="fas fa-ambulance icon"></i> 
+            <i class="fas fa-hospital-user icon"></i> 
             <h2 style="text-align: center">View Patient Details</h2>
         </div>
         </a>
         <a href="downloadfile.php" style="text-decoration: none;">
         <div class="box">
-            <i class="fas fa-ambulance icon"></i> 
+            <i class="fas fa-syringe icon"></i> 
             <h2 style="text-align: center">See Patient Medical History</h2>
         </div>
         </a>
