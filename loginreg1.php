@@ -15,6 +15,19 @@
             align-items: center;
             min-height: 100vh;
         }
+        .navbar {
+            display: flex;
+            margin-top: 100;
+            margin-left: 10px;
+            padding-bottom: 650px;
+            margin-left: -200px;
+           
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
         .content {
             max-width:350px;
             padding: 100px;
@@ -85,6 +98,11 @@
     </style>
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html"  style="color: white; float: left;">Back</a>
+        </nav>
+    </header>
     <div class="content">
         <h1 style="color: white;">ABO <br><span style="color: rgb(188, 155, 155);">The Smart Ambulance System</span></h1>
         <ul style="list-style: none;">
