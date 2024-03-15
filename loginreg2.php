@@ -92,9 +92,31 @@
                 flex-direction: column;
             }
         }
+        .navbar {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-bottom: 730px;
+    margin-left: -170px;
+    color: #0056b3;
+   
+}
+.navbar a {
+    color:white;
+    text-decoration: none;
+
+}
+
     </style>
 </head>
 <body>
+
+               
+<header>
+    <nav class="navbar">
+        <a href="index.html"  style="color: white; float: left;">Back</a>
+    </nav>
+</header>
     <div class="content">
         <h1 style="color: white;">ABO <br><span style="color: black;">The Smart Ambulance System</span></h1>
         <ul style="list-style: none;">
@@ -119,6 +141,9 @@
                     <input type="tel" id="phoneNumber" name="phoneNumber" required>
                 </div>
             </div>
+ 
+
+
             <div class="form-group">
                 <label for="address">Address: <span style="color: red;">*</span></label>
                 <textarea id="address" name="address" rows="3" required></textarea>
