@@ -95,7 +95,7 @@
     
     <div class="container">
         <h2>Emergency Services Registration</h2>
-        <form action="#" method="POST">
+        <form action="reg1.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="organization">Organization Name: <span style="color: red;">*</span></label>
                 <input type="text" id="organization" name="organization" required>
@@ -130,3 +130,4 @@
     </script>   
 </body>
 </html>
+
