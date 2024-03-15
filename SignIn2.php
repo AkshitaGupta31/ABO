@@ -80,12 +80,12 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="index.html"  style="color: white; float: left;">Back</a>
+            <a href="index.php"  style="color: white; float: left;">Back</a>
         </nav>
     </header>
     <h1 style="text-align: center;font-size: xx-large;font-weight: 700;color: white;margin-top: 5%;margin-bottom: 5%;" align="center">Sign In</h1>
     <div class="container">
-        <form action="">
+        <form action="sign2.php" method="post">
             <div class="block">
                 <div class="form-group" style="margin-left: 32px;">
                     <label for="Email">Email<span style="color: red;">*</span></label>

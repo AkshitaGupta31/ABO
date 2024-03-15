@@ -9,14 +9,9 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: radial-gradient(circle, rgba(239,143,185,1) 57%, rgba(251,1,1,0.8) 100%);
+            background-image: url("sign3img.png");
             min-height: 100vh;
             animation: colorFade 5s infinite alternate;
-        }
-
-        @keyframes colorFade {
-            0% { background-color: rgba(255, 228, 225, 1); } 
-            100% { background-color:rgba(251,1,1,0.8); } 
         }
 
         .container {
@@ -58,12 +53,30 @@
                 max-height: none;
             }
         }
+        .navbar {
+            display: flex;
+            margin-top: 100;
+            margin-left: 10px;
+           margin-top: 50px;
+            margin-left: 20px;
+        
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
+<header>
+        <nav class="navbar">
+            <a href="index.php"  style="color: white; float: left;">Back</a>
+        </nav>
+    </header>
     <h1 style="text-align: center;font-size: xx-large;font-weight: 700;color: black;margin-top: 5%;margin-bottom: 5%;" align="center">Sign In</h1>
     <div class="container">
-        <form action="">
+        <form action="sign3.php" method="post">
             <div class="block">
                 <div class="form-group" style="margin-left: 32px;">
                     <label for="Email">Email<span style="color: red;">*</span></label>
@@ -72,6 +85,10 @@
                 <div class="form-group">
                     <label for="password">Password <span style="color: red;">*</span></label>
                     <input type="password" id="password" name="password" required maxlength="8">
+                    <br><br>
+                    <center><div class="form-group1">
+                        <button>Sign In</button>
+                    </div ></center><br>
                     <p>Don't have an account? <a href="loginreg3.html">SignUp</a></p>
                 </div>
             </div>

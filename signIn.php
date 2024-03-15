@@ -83,24 +83,24 @@
     
     <header>
         <nav class="navbar">
-            <a href="index.html"  style="color: white; float: left;">Back</a>
+            <a href="index.php"  style="color: white; float: left;">Back</a>
         </nav>
     </header>
     <h1 style="text-align: center;padding-top:5%;color: white; margin-top: -50px;">SIGN IN</h1>
     <div class="container">
-        <a href="SignIn1.html" style="text-decoration: none;">
+        <a href="SignIn1.php" style="text-decoration: none;">
         <div class="box">
             <i class="fas fa-ambulance icon"></i> 
             <h2 style="text-align: center">Emergency Service</h2>
         </div>
         </a>
-        <a href="SignIn2.html" style="text-decoration: none;">
+        <a href="SignIn2.php" style="text-decoration: none;">
             <div class="box">
                 <i class="fas fa-hospital icon"></i> 
                 <h2 style="text-align: center;padding-left: 80px;">Hospital</h2>
             </div>
         </a>
-        <a href="SignIn3.html" style="text-decoration: none;">
+        <a href="SignIn3.php" style="text-decoration: none;">
             <div class="box">
                 <i class="fas fa-user-injured icon"></i> 
                 <h2 style="text-align: center;padding-left: 80px;">Patient</h2>

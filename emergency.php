@@ -10,11 +10,13 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: rgb(239,143,185);
-            background: radial-gradient(circle, rgba(239,143,185,1) 57%, rgba(251,1,1,0.8) 100%);
+            background-image: url('ambuuu.jpg');
+            background-repeat:no-repeat;
+            background-size:cover;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            overflow:hidden;
         }
         .container {
             display: flex; 
@@ -63,10 +65,19 @@
                 margin-bottom: 35px; 
             }
         }
+        h1
+        {
+            margin-bottom:-30px;
+        }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;padding-top:5%;color: rgb(22, 1, 41);">EMERGENCY SERVICES</h1>
+<header>
+<nav class="navbar">
+            <a href="index.php"  style="color: blue; float: left;text-decoration:none;">Back</a>
+        </nav>
+    </header>
+    <h1 style="text-align: center;padding-top:5%;color: white;">EMERGENCY SERVICES</h1>
     <div class="container">
         <a href="#" style="text-decoration: none;">
         <div class="box">

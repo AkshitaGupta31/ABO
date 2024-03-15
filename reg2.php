@@ -33,6 +33,3 @@ mysqli_close($conn);
 </center>
 </body>
 </html>
-</center>
-</body>
-</html>

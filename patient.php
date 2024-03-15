@@ -17,7 +17,6 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-
             
         }
         .container {
@@ -67,28 +66,9 @@
                 margin-bottom: 35px; 
             }
         }
-        .navbar {
-    display: flex;
-    margin-bottom: 80px;
-    margin-left: 10px;
-    margin-top:20px;
-    
-    margin-left: 200px;
-   
-}
-.navbar a {
-    color: white;
-    text-decoration: none;
-}
-
     </style>
 </head>
-<body>
-    <header>
-        <nav class="navbar">
-            <a href="index.html"  style="color: white; float: left;">Back</a>
-        </nav>
-    </header>
+<body >
     <h1 style="text-align: center;padding-top:5%;color: white;">Patient</h1>
     <div class="container">
         <a href="#" style="text-decoration: none;">
