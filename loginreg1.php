@@ -9,8 +9,7 @@
            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: rgb(239,143,185);
-            background: radial-gradient(circle, rgba(239,143,185,1) 57%, rgba(251,1,1,0.8) 100%);
+            background-image: url("dr2.jpg");
             display: flex;
             justify-content: center;
             align-items: center;
@@ -18,15 +17,16 @@
         }
         .content {
             max-width:350px;
-            margin-right: 20px;
-            padding: 0px;
+            padding: 100px;
+            margin-left: -100px;
         }
         .container {
             max-width: 500px;
             background-color: #fff;
-            padding: 20px;
+            padding: 30px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
         }
         .container h2 {
             text-align: center;
@@ -86,10 +86,10 @@
 </head>
 <body>
     <div class="content">
-        <h1 style="color: white;">ABO <br><span style="color: black;">The Smart Ambulance System</span></h1>
+        <h1 style="color: white;">ABO <br><span style="color: rgb(188, 155, 155);">The Smart Ambulance System</span></h1>
         <ul style="list-style: none;">
-            <li><h2>Real-Time Tracking</h2> <p>Our ambulances light up like fireflies on a map, providing real-time updates on their location. With ABO, we always know where they are and precisely where they need to go.</p></li>
-            <li><h2>Traffic Whisperer</h2><p>Our advanced AI acts as a traffic whisperer, predicting jams and detours in real-time. Ambulances are expertly navigated through the fastest paths, ensuring that precious moments are not wasted.</p></li>
+            <li><h2 style="color:rgb(216, 101, 34)">Real-Time Tracking</h2> <p>Our ambulances light up like fireflies on a map, providing real-time updates on their location. With ABO, we always know where they are and precisely where they need to go.</p></li>
+            <li><h2 style="color:rgb(216, 101, 34)">Traffic Whisperer</h2><p>Our advanced AI acts as a traffic whisperer, predicting jams and detours in real-time. Ambulances are expertly navigated through the fastest paths, ensuring that precious moments are not wasted.</p></li>
         </ul>
     </div>
     
@@ -118,10 +118,10 @@
             </div>
             <div class="form-group">
                 <label for="password">Password <span style="color: red;">*</span></label>
-                <input type="password" id="password" name="password" required maxlength="8">
+                <input type="password" id="password" name="password" required minlength="8" maxlength="12">
             </div>
             <div class="form-group">
-                <input type="submit" value="Submit">
+                <center><input type="submit" value="Submit"></center>
             </div>
         </form>
     </div> 
@@ -130,4 +130,3 @@
     </script>   
 </body>
 </html>
-
