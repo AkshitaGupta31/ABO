@@ -9,8 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: rgb(239,143,185);
-            background: radial-gradient(circle, rgba(239,143,185,1) 57%, rgba(251,1,1,0.8) 100%);
+            background-image: url("dr.jpg");
             display: flex;
             justify-content: center;
             align-items: center;
@@ -19,8 +18,9 @@
         .content {
             max-width: 350px;
             margin-right: 20px;
-            padding: 0px;
+            padding: 10px;
             color: white;
+            margin-left: 30px;
         }
         .container {
             max-width: fit-content;
@@ -177,14 +177,14 @@
             </div>
             <div class="form-group">
                 <label for="f">Attach your Medical History:</label>
-                <input type="file" id="f" name="f">
-            </div>
+                <input type="file" id="f" name="f"><br>
+            </div><br>
             <div class="form-group">
                 <label for="password">Password <span style="color: red;">*</span></label>
                 <input type="password" id="password" name="password" required maxlength="8">
             </div>
             <div class="form-group">
-                <input type="submit" name="sub" value="Submit">
+                <center><input type="submit" name="sub" value="Submit"></center>
             </div>
         </form>
     </div>        
