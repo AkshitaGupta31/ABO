@@ -23,6 +23,8 @@ img
     background-size: cover;
     background-position: center;
     min-height: 60vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 .input_container_search,
 .input_container_location {
