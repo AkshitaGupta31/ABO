@@ -23,15 +23,16 @@ $blood =  $_REQUEST['bloodBank'];
 $organ =  $_REQUEST['organBank'];
 $sql = "INSERT INTO credentialsh (Password,HospitalName,PhoneNo,EmailAddress,Address,NoofBeds,EmergencyResponseTime, BloodBankPresence,OrganBankPresence, OpenHours) VALUES ('$password','$name','$phno','$email','$add',$beds,$em,'$blood','$organ','$openHours')";
 if(mysqli_query($conn, $sql)){
-echo "<h3>Data stored in a database successfully."
-. " Please browse your localhost php my admin"
-. " to view the updated data</h3>"; 
+    header('Location: signIn.php'); 
 } else{
 echo "ERROR: Hush! Sorry $sql. "
 . mysqli_error($conn);
 }
 mysqli_close($conn);
 ?>
+</center>
+</body>
+</html>
 </center>
 </body>
 </html>
