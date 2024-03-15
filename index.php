@@ -24,14 +24,17 @@
         <section class="amb__section">
             <header>
                 <nav class="navbar">
-                    <button style="border-radius:5px ;background-color: yellow; height: 30px; width: 100px;text-align: center;padding: 10px;color:black;"><a href="#" class="link" style="color: black;font-weight: 500;">Get the app</a></button>
+                    <a href="#">Get the App</a>
                     <div class="navbar__menu_container">
                         
-                        <button style="border-radius:5px ;background-color: yellow; height: 30px; width: 80px;text-align: center;padding: 5px;color:black;"><a href="#" class="link" style="color: black;font-weight: 500;">Tracking</a></button>
-                        <button style="border-radius:5px ;background-color: yellow;height: 30px; width: 80px;text-align: center;padding: 5px;"><a href="login.html" style="color: black;font-weight: 500;" class="link">Login</a></button>
-                        <button style="border-radius:5px ;background-color: yellow; height: 30px; width: 80px;text-align: center;padding: 5px;"><a href="signIn.html" style="color: black;font-weight: 500;" class="link">Sign up</a></a></button>
-                        <a href="#" class="user_icon"><i style="opacity:0.3;" class="fas fa-user"></i></a>     
+                        <a href="#" class="link">Tracking</a>
+                        <a href="#" class="link">Login</a>
+                        <a href="#" class="link">Sign up</a>
+                        <a href="#" class="user_icon">
+                            <i class="fas fa-user"></i>
+                        </a>     
                     </div>    
+                       
                 </nav>
                 <center><div class="amb__section_input_container">
                     <input class="input_container_location" type="text" placeholder="Tamil Nadu">
