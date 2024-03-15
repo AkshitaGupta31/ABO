@@ -24,7 +24,7 @@
         <section class="amb__section">
             <header>
                 <nav class="navbar">
-                    <a href="#">Get the App</a>
+                    <a href="#">Get The App</a>
                     <div class="navbar__menu_container">
                         <a href="#" class="link">Login</a>
                         <a href="loginpage.html" class="link">Sign up</a>
@@ -88,7 +88,7 @@
             <div class="semicontainer">
                 
                 <div class="right">
-                    <h1>get the ABO app</h1>
+                    <h1>Get The ABO App</h1>
                     <p>We will send you a link,open it and download in your phone</p>
 
                     <div class="radio_button">
@@ -98,15 +98,15 @@
                          </div>
                          <div>
                             <input type="radio" name="download_app" id="phone">
-                            <label for="phone" style="font-size:14px;" >phone</label>
+                            <label for="phone" style="font-size:14px;" >Phone</label>
                          </div>
                     </div>
                     <div class="input_container">
                         <input type="text" placeholder=" email">
-                        <button>share app link</button>
+                        <button>Share App Link</button>
                     </div>
                     <div class="download_app">
-                        <h5>download app from </h5>
+                        <h5>Download App From </h5>
                         <div>
                             <a href="https://play.google.com/store/games?hl=en_IN&gl=US&pli=1"><img src="psl.png" style="height:40px; width:110px"></a>
                             <a href="https://www.apple.com/in/store?afid=p238%7Cs6Ww8AeKv-dc_mtid_187079nc38483_pcrid_693056203360_pgrid_112258962227_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-brand--slid---product-"><img src="as.png"style="height:40px; width:110px"></a>
@@ -130,22 +130,22 @@
             <div class="navigation">
                 <div class="link_container">
                     <h5>ABOUT ABO</h5>
-                    <a class="footer_link" href="#">who we are</a>
+                    <a class="footer_link" href="#">Who We Are</a>
                     <a class="footer_link" href="#">Blogs</a>
-                    <a class="footer_link" href="#">Work with us</a>
+                    <a class="footer_link" href="#">Work With Us</a>
                     <a class="footer_link" href="#">Invester Realtions</a>
                     <a class="footer_link" href="#">Report Fraud</a>
                     
                 </div>
                 <div class="link_container">
                     <h5>LEARN MORE</h5>
-                    <a class="footer_link" href="#">privacy</a>
+                    <a class="footer_link" href="#">Privacy</a>
                     <a class="footer_link" href="#"> Security</a>
                     <a class="footer_link" href="#">Teams</a>
                     <a class="footer_link" href="#">Sitemap</a> 
                 </div>
                     <div class="link_container">
-                        <h5>social media</h5>
+                        <h5>Social Media</h5>
                         <div class="social_links">
                             <button><i class="fa-brands fa-linkedin-in"></i></button>
                             <button><i class="fa-brands fa-instagram"></i></button>
