@@ -16,37 +16,21 @@ mysqli_close($conn);
 
 <head>
 	<meta charset="UTF-8">
-	<title>GFG User Details</title>
+	<title>User Details</title>
 	<!-- CSS FOR STYLING THE PAGE -->
 	<style>
-        body
-        {
-            background-image: url("pl1.jpg");
-            background-repeat: no-repeat;
-            background-size:cover;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-        }
-        .navbar {
-            display: flex;
-            margin-top: 100;
-            margin-left: 10px;
-            padding-bottom: 650px;
-            margin-left: 20px;
-        
-        }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
-        }
-
 		table {
 			margin: 0 auto;
 			font-size: large;
 			border: 1px solid black;
 		}
-
+		body
+		{
+			background-image:url('pl1.jpg');
+			background-repeat:no-repeat;
+			background-size:cover;
+			color:white;
+		}
 		h1 {
 			text-align: center;
 			color: #006600;
@@ -56,7 +40,6 @@ mysqli_close($conn);
 		}
 
 		td {
-			background-color: #E4F5D4;
 			border: 1px solid black;
 		}
 
@@ -75,15 +58,9 @@ mysqli_close($conn);
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="index.html"  style="color: white; float: left;">Back</a>
-        </nav>
-    </header>
 	<section>
-        <h1 style="color: white;margin-top: 60px;">Profile of the Patient</h1>
 		<!-- TABLE CONSTRUCTION -->
-		<table style="margin-top: 30px;">
+		<table>
 			<!-- PHP CODE TO FETCH DATA FROM ROWS -->
 			<?php 
 				// LOOP TILL END OF DATA
