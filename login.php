@@ -86,7 +86,7 @@
             <a href="index.php"  style="color: white; float: left;">Back</a>
         </nav>
     </header>
-    <h1 style="text-align: center;padding-top:5%;color: white;margin-top: -40px;">LOGIN</h1>
+    <h1 style="text-align: center;padding-top:5%;color: white;margin-top: -40px;">SIGN UP/h1>
     <div class="container">
         <a href="loginreg1.html" style="text-decoration: none;">
         <div class="box">
