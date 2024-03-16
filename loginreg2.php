@@ -16,6 +16,7 @@
             min-height: 100vh;
             background-repeat: no-repeat;
             background-size: cover;
+            overflow:hidden;
         }
         .content {
             max-width: 350px;
