@@ -3,50 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emergency services Login</title>
+    <title>Hospital Registration</title>
     <style>
         body {
-           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url("dr2.jpg");
+            font-family: Arial, sans-serif;
+            margin-left: 0;
+            padding: 40px;
+           background-image: url("hs2.jpg");
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-        }
-        .navbar {
-            display: flex;
-            margin-top: 100;
-            margin-left: 10px;
-            padding-bottom: 650px;
-            margin-left: -200px;
-           
-        }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         .content {
-            max-width:350px;
-            padding: 100px;
-            margin-left: -100px;
+            max-width: 350px;
+            margin-right: 20px;
+            padding: 20px;
+            color: white;
+            margin-left: 0px;
         }
         .container {
-            max-width: 500px;
+            max-width: fit-content;
             background-color: #fff;
-            padding: 30px;
+            padding: 20px;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-right: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-height: fit-content;
+            margin-right: -10px;
         }
         .container h2 {
             text-align: center;
             margin-bottom: 20px;
         }
         .form-group {
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
         .form-group label {
             display: block;
@@ -54,12 +46,17 @@
         }
         .form-group input[type="text"],
         .form-group input[type="email"],
-        .form-group input[type="tel"] {
+        .form-group input[type="tel"],
+        .form-group textarea {
             width: 100%;
             padding: 8px;
             border-radius: 3px;
-            border: none;
-            border-bottom: 1px solid #ccc;
+            border: 0px;
+            border-bottom: 2px solid #ccc;
+            box-sizing: border-box;
+        }
+        .form-group input[type="number"] {
+            width: calc(100% - 18px); /* Adjusted to accommodate spinner arrows */
         }
         .form-group input[type="submit"] {
             background-color: #007bff;
@@ -72,7 +69,7 @@
         .form-group input[type="submit"]:hover {
             background-color: #0056b3;
         }
-        li p
+li p
         {
             color: white;
             font-size: larger;
@@ -89,62 +86,82 @@
                 margin-right: 0;
             }
             .content {
-                margin-bottom: 20px;
+                margin-bottom: 20px; height: 750px;
             }
             body {
                 flex-direction: column;
             }
         }
+        .navbar {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-bottom: 730px;
+    margin-left: -170px;
+    color: #0056b3;
+   
+}
+.navbar a {
+    color:white;
+    text-decoration: none;
+}
     </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="index.php"  style="color: white; float: left;">Back</a>
-        </nav>
-    </header>
+               
+<header>
+    <nav class="navbar">
+        <a href="index.html"  style="color: white; float: left;">Back</a>
+    </nav>
+</header>
     <div class="content">
-        <h1 style="color: white;">ABO <br><span style="color: rgb(188, 155, 155);">The Smart Ambulance System</span></h1>
+        <h1 style="color: white;">ABO <br><span style="color: black;">The Smart Ambulance System</span></h1>
         <ul style="list-style: none;">
-            <li><h2 style="color:rgb(216, 101, 34)">Real-Time Tracking</h2> <p>Our ambulances light up like fireflies on a map, providing real-time updates on their location. With ABO, we always know where they are and precisely where they need to go.</p></li>
-            <li><h2 style="color:rgb(216, 101, 34)">Traffic Whisperer</h2><p>Our advanced AI acts as a traffic whisperer, predicting jams and detours in real-time. Ambulances are expertly navigated through the fastest paths, ensuring that precious moments are not wasted.</p></li>
-        </ul>
-    </div>
-    
-    <div class="container">
-        <h2>Emergency Services Registration</h2>
-        <form action="reg1.php" method="post" enctype="multipart/form-data">
+@@ -119,6 +141,9 @@
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                </div>
+            </div>
+ 
             <div class="form-group">
-                <label for="organization">Organization Name: <span style="color: red;">*</span></label>
-                <input type="text" id="organization" name="organization" required>
+                <label for="address">Address: <span style="color: red;">*</span></label>
+                <textarea id="address" name="address" rows="3" required></textarea>
             </div>
             <div class="form-group">
-                <label for="contact">Contact Person: <span style="color: red;">*</span></label>
-                <input type="text" id="contact" name="contact" required>
+                <label for="openHours">Open Hours: <span style="color: red;">*</span></label>
+                <textarea id="openHours" name="openHours" rows="3" required></textarea>
             </div>
             <div class="form-group">
-                <label for="email">Email Address: <span style="color: red;">*</span></label>
-                <input type="email" id="email" name="email" required>
+                <label for="emergencyResponseTime">Emergency Response Time (minutes): <span style="color: red;">*</span></label>
+                <input type="number" id="emergencyResponseTime" name="emergencyResponseTime" min="0" step="5" required>
             </div>
             <div class="form-group">
-                <label for="phone">Phone Number: <span style="color: red;">*</span></label>
-                <input type="tel" id="phone" name="phone" required>
+                <label for="bedsAvailable">Number of Beds Available: <span style="color: red;">*</span></label>
+                <input type="number" id="bedsAvailable" name="bedsAvailable" min="5" required>
             </div>
-            <div class="form-group">
-                <label for="location">Location: <span style="color: red;">*</span></label>
-                <input type="text" id="location" name="location" required>
+            <div style="display: flex; gap: 20px;">
+            <div class="form-group" style="flex: 1;">
+                <label for="bloodBank">Blood Bank Presence:</label>
+                <select id="bloodBank" name="bloodBank">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="form-group" style="flex: 1;">
+                <label for="organBank">Organ Bank Presence:</label>
+                <select id="organBank" name="organBank">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="password">Password <span style="color: red;">*</span></label>
-                <input type="password" id="password" name="password" required minlength="8" maxlength="12">
+                <input type="password" id="password" name="password" required maxlength="8">
             </div>
+        </div><br>
             <div class="form-group">
                 <center><input type="submit" value="Submit"></center>
             </div>
         </form>
-    </div> 
-    <script>
-        
-    </script>   
+    </div>        
 </body>
 </html>
