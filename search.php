@@ -14,11 +14,60 @@
         .dwnfile
         {
             color: white;
-            margin-top: 150px;
+            margin-top: 50px;
         }
+        .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 63px;
+        padding: 16px 48px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar__menu_container {
+        display: flex;
+        gap: 17px;
+    }
+
+    .navbar__menu_container .user_icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+        border: solid 1px white;
+        display: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .navbar__menu_container .user_icon {
+            display: flex;
+        }
+        .link {
+            display: none;
+        }
+    }
     </style>
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <a href="index.php">Back</a>
+            <div class="navbar__menu_container">
+                        <a href="signIn.php" class="link">Login</a>
+                        <a href="loginpage.php" class="link">Sign up</a>
+                        <a href="#" class="user_icon">
+                            <i class="fas fa-user"></i>
+                        </a>     
+               </div>
+        </nav>
+    </header>
     <center>
         <div class="dwnfile">
             <h2>View Patient Details</h2>
