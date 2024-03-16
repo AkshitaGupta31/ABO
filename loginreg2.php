@@ -117,7 +117,24 @@ li p
     <div class="content">
         <h1 style="color: white;">ABO <br><span style="color: black;">The Smart Ambulance System</span></h1>
         <ul style="list-style: none;">
-@@ -119,6 +141,9 @@
+            <li><h2 style="color:black">Doctor in Your Pocket </h2><p>ABO goes beyond just transportation. Our AI analyzes vital signs during transit, providing doctors with critical information even before the ambulance arrives. This proactive approach enables medical professionals to prepare and respond swiftly upon arrival.</p></li>
+            <li><h2 style="color:black">Secure Information</h2><p>Rest assured, patient data is treated with the utmost security. Information zips safely between hospitals and ambulances, guarded like top-secret messages, ensuring confidentiality and privacy.</p></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>Hospital Registration</h2>
+        <form action="reg2.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="hospitalName">Hospital Name: <span style="color: red;">*</span></label>
+                <input type="text" id="hospitalName" name="hospitalName" required>
+            </div>
+            <div class="form-group" style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <label for="email">Email Address: <span style="color: red;">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div style="flex: 1;">
+                    <label for="phoneNumber">Phone Number: <span style="color: red;">*</span></label>
                     <input type="tel" id="phoneNumber" name="phoneNumber" required>
                 </div>
             </div>
