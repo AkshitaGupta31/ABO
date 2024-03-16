@@ -111,7 +111,7 @@ li p
                
 <header>
     <nav class="navbar">
-        <a href="index.html"  style="color: white; float: left;">Back</a>
+        <a href="index.php"  style="color: white; float: left;">Back</a>
     </nav>
 </header>
     <div class="content">
