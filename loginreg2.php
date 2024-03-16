@@ -94,16 +94,19 @@ li p
         }
         .navbar {
     display: flex;
-    margin-top: 100px;
-    margin-left: 50px;
-    padding-bottom: 730px;
-    margin-left: -170px;
-    color: #0056b3;
+   
    
 }
 .navbar a {
     color:white;
     text-decoration: none;
+    color:white;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-bottom: 730px;
+    margin-left: 10px;
+    color: #0056b3;
 }
     </style>
 </head>
